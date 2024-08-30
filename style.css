@@ -1,0 +1,51 @@
+.z-index-1{
+    z-index: -1;
+}
+.opacity-50-image{
+    opacity: 0.5;
+}
+.width-100{
+    width: 550px;
+}
+.width-any{
+    width: 550px;
+}
+.opacity-50-bg{
+    opacity: 0.75;
+}
+.bg-html{
+    background-color: orange;
+}
+.bg-bootstrap{
+    background-color: purple;
+}
+.bg-php{
+    background-color: rgb(104, 88, 243);
+}
+.bg-laravel{
+    background-color: #fb503b;
+}
+.arrow1{
+    background: linear-gradient(to top, orange, rgb(13, 110, 253));
+}
+.arrow2{
+    background: linear-gradient(to right, rgb(13, 110, 253), purple);
+}
+.arrow3{
+    background: linear-gradient(to top, rgb(220, 53, 69), rgb(108, 117, 125));
+}
+.arrow4{
+    background: linear-gradient(to left, orange, rgb(220, 53, 69));
+}
+.arrow5{
+    background: linear-gradient(to right, orange, rgb(255, 193, 7));
+}
+.arrow6{
+    background: linear-gradient(to bottom, rgb(255, 193, 7), rgb(23, 162, 184));
+}
+.arrow7{
+    background: linear-gradient(to bottom, orange, rgb(104, 88, 243));
+}
+.arrow8{
+    background: linear-gradient(to left, rgb(104, 88, 243),#fb503b );
+}
