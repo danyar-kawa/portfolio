@@ -16,14 +16,32 @@
 .bg-html{
     background-color: orange;
 }
+.text-html{
+    color: orange;
+}
 .bg-bootstrap{
     background-color: purple;
+}
+.text-bootstrap{
+    color: purple;
 }
 .bg-php{
     background-color: rgb(104, 88, 243);
 }
+.text-php{
+    color:rgb(104, 88, 243) ;
+}
 .bg-laravel{
     background-color: #fb503b;
+}
+.text-laravel{
+    color:#fb503b ;
+}
+.mysql-color {
+    color: rgb(0, 117, 143);
+}
+.text-git{
+    color: rgb(220, 53, 69);
 }
 .arrow1{
     background: linear-gradient(to top, orange, rgb(13, 110, 253));

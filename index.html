@@ -9,26 +9,48 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <div class="nav row bg-dark p-2">
-        <div class="col-3"><a class="nav-link  text-secondary-hover" href="#">My Portfolio</a></div>
-        <div class="col-1"><a class="nav-link  text-secondary-hover" href="#Home">Home</a></div>
-        <div class="col-1"><a class="nav-link  text-secondary-hover" href="#About">About</a></div>
-        <div class="col-1"><a class="nav-link  text-secondary-hover" href="#Skills">Skills</a></div>
-        <div class="col-1"><a class="nav-link  text-secondary-hover" href="#Projects">Projects</a></div>
-        <div class="col-1"><a class="nav-link  text-secondary-hover" href="#Contact">Contact</a></div>
+<body class="bg-dark">
+    <div class="row bg-secondary p-2">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand text-dark fs-4" href="#"><b><strong>My Portfolio</strong></b></a>
+                <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fs-4" href="#Home"><b>Home</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fs-4" href="#About"><b>About</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fs-4" href="#Skills"><b>Skills</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fs-4" href="#Projects"><b>Projects</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fs-4" href="#Contact"><b>Contact</b></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
+    <!--  -->
     <div class="container">
         <div class="row d-flex align-items-center mx-5 my-5" id="Home" style="height: 99vh;">
-            <div class="col-6">
+            <div class="col-md-12 col-lg-6">
                 <p class="display-6 text-info"><b>welcome viewer</b></p>
                 <h1 class="display-1 text-primary"><strong>Iam Danyar</strong></h1>
                 <p class="display-6 text-info"><b>for</b></p>
                 <h1 class="display-3 text-danger mb-5"><strong>Web Design</strong></h1>
-                <div class="mx-auto" style="width: 200px;"><a class="btn btn-dark btn-lg form-control m-2" href="https://github.com/danyar-kawa/portfolio"><i class="bi bi-github"></i> View GitHub</a></div>
+                <div class="mx-auto" style="width: 200px;"><a class="btn btn-dark btn-lg form-control m-2 bg-secondary" href="https://github.com/danyar-kawa"><i class="bi bi-github"></i> View GitHub</a></div>
             </div>
-            <div class="col-6 text-center relative w-25 display-6">
-                <div class="position-absolute top-50 start-50 z-index-1">
+            <div class="col-md-12 col-lg-6 text-center relative w-25 display-6">
+                <div class="position-absolute top-50 start-50 z-index-1 d-none d-lg-block">
                     <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/top_5_valuable_ethical_hacking_tools.jpg" class="img-fluid border-dark shadow opacity-50-image width-100" alt="program">
                 </div>
                 <div class="row width-any mt-5">
@@ -69,56 +91,146 @@
             </div>
         </div>
         <div class="row d-flex align-items-center mx-5 my-5" id="About" style="height: 99vh;">
-            <div class="col-6">
-                <h1 class="display-6 text-info"><b>About Me</b></h1>
-                <h1 class="display-1 text-primary"><strong>Iam Danyar</strong></h1>
-                <p class="display-6 text-info"><b>for</b></p>
-                <h1 class="display-3 text-danger mb-5"><strong>Web Design</strong></h1>
-                <div class="mx-auto" style="width: 200px;"><a class="btn btn-dark btn-lg form-control m-2" href="https://github.com/danyar-kawa/portfolio"><i class="bi bi-github"></i> View GitHub</a></div>
+            <div class="col-md-12 col-lg-6">
+                <h1 class="display-4 text-secondary"><b><strong>About Me</strong></b></h1>
+                <p class="text-secondary fs-3"><b>My name is danyar student from information technology department at Sulaimani  university and experience in both frontend and backend web site .</b></p>
+                <div class="mx-auto" style="width: 200px;"><a class="btn btn-lg form-control m-2 d-flex justify-content-around btn-secondary" href="#">CV<i class="bi bi-file-earmark-arrow-down"></i></a></div>
             </div>
-            <div class="col-6 text-center relative w-25 display-6">
-                <div class="position-absolute top-50 start-50 z-index-1">
-                    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/top_5_valuable_ethical_hacking_tools.jpg" class="img-fluid border-dark shadow opacity-50-image width-100" alt="program">
-                </div>
-                <div class="row width-any mt-5">
-                    <div class="col-3 bg-secondary opacity-50-bg"><i class="fa-brands fa-github"></i></div>
-                    <div class="col-2"></div>
-                    <div class="col-2 bg-primary opacity-50-bg"><i class="fa-brands fa-css3-alt"></i></div>
-                    <div class="col-2 arrow2 opacity-50-bg"><i class="bi bi-arrow-right"></i></div>
-                    <div class="col-3 bg-bootstrap opacity-50-bg"><i class="fa-brands fa-bootstrap"></i></div>
-                </div>
-                <div class="row width-any">
-                    <div class="col-3 arrow3 opacity-50-bg"><i class="bi bi-arrow-up"></i></div>
-                    <div class="col-2"></div>
-                    <div class="col-2 arrow1 opacity-50-bg"><i class="bi bi-arrow-up"></i></div>
-                    <div class="col-2"></div>
-                    <div class="col-3"></div>
-                </div>
-                <div class="row width-any">
-                    <div class="col-3 bg-danger opacity-50-bg"><i class="fa-brands fa-git-alt"></i></div>
-                    <div class="col-2 arrow4 opacity-50-bg"><i class="bi bi-arrow-left"></i></div>
-                    <div class="col-2 bg-html opacity-50-bg"><i class="fa-brands fa-html5"></i></div>
-                    <div class="col-2 arrow5 opacity-50-bg"><i class="bi bi-arrow-right"></i></div>
-                    <div class="col-3 bg-warning opacity-50-bg"><i class="fa-brands fa-js"></i></div>
-                </div>
-                <div class="row width-any">
-                    <div class="col-3"></div>
-                    <div class="col-2"></div>
-                    <div class="col-2 arrow7 opacity-50-bg"><i class="bi bi-arrow-down"></i></div>
-                    <div class="col-2"></div>
-                    <div class="col-3 arrow6 opacity-50-bg"><i class="bi bi-arrow-down"></i></div>
-                </div>
-                <div class="row width-any">
-                    <div class="col-3 bg-laravel opacity-50-bg"><i class="fa-brands fa-laravel"></i></div>
-                    <div class="col-2 arrow8 opacity-50-bg"><i class="bi bi-arrow-left"></i></div>
-                    <div class="col-2 bg-php opacity-50-bg"><i class="fa-brands fa-php"></i></div>
-                    <div class="col-2"></div>
-                    <div class="col-3 bg-info opacity-50-bg"><i class="fa-brands fa-react"></i></div>
-                </div>
+            <div class="col-md-12 col-lg-6 text-cente">
+                <img src="https://media.istockphoto.com/id/1843756406/photo/web-development-encompassing-coding-and-design-for-performance-and-creating-insight-reports.jpg?s=612x612&w=0&k=20&c=AyPIzd1diRJPk0LpMLJryH1TkcjYWzBFdEBuTJUbvCs=" alt="" class="img-fluid rounded-circle">
             </div>
         </div>
         </div>
     </div>
+    <div class="row d-flex align-items-center mx-5 my-5 text-secondary text-light" id="Skills" style="height: 99vh;">
+        <div class="container">
+            <h2 class="text-center mb-4 border-bottom border-light">Skills</h2>
+            <div class="row">
+                <div class="col-sm-6 col-lg-3 col-md-4 mb-4">
+                    <div class="card border-light bg-dark">
+                        <div class="card-body text-center">
+                            <i class="fa-brands fa-html5 fa-3x text-html mb-2"></i>
+                            <h5 class="card-title">HTML</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-md-4 mb-4">
+                    <div class="card border-light bg-dark">
+                        <div class="card-body text-center">
+                            <i class="fa-brands fa-css3-alt fa-3x text-primary mb-2"></i>
+                            <h5 class="card-title">CSS</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-md-4 mb-4">
+                    <div class="card border-light bg-dark">
+                        <div class="card-body text-center">
+                            <i class="fa-brands fa-bootstrap fa-3x text-bootstrap mb-2"></i>
+                            <h5 class="card-title">Bootstrap</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-md-4 mb-4">
+                    <div class="card border-light bg-dark">
+                        <div class="card-body text-center">
+                            <i class="fa-brands fa-js fa-3x text-warning mb-2"></i>
+                            <h5 class="card-title">JavaScript</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-md-4 mb-4">
+                    <div class="card border-light bg-dark">
+                        <div class="card-body text-center">
+                            <i class="fa-brands fa-php fa-3x text-php mb-2"></i>
+                            <h5 class="card-title">PHP</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-md-4 mb-4">
+                    <div class="card border-light bg-dark">
+                        <div class="card-body text-center">
+                            <i class="fa-brands fa-laravel fa-3x text-laravel mb-2"></i>
+                            <h5 class="card-title">Laravel</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-md-4 mb-4">
+                    <div class="card border-light bg-dark">
+                        <div class="card-body text-center">
+                            <i class="fas fa-database fa-3x mysql-color mb-2"></i>
+                            <h5 class="card-title">MySQL</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-md-4 mb-4">
+                    <div class="card border-light bg-dark">
+                        <div class="card-body text-center">
+                            <i class="fa-brands fa-git-alt fa-3x text-git mb-2"></i>
+                            <h5 class="card-title">Git</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-md-4 mb-4">
+                    <div class="card border-light bg-dark">
+                        <div class="card-body text-center">
+                            <i class="fa-brands fa-github fa-3x text-secondary mb-2"></i>
+                            <h5 class="card-title">GitHub</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row d-flex align-items-center mx-5 my-5 text-secondary text-light" id="Projects" style="height: 99vh;">
+        <div class="container">
+            <h2 class="text-center mb-4 border-bottom border-light">Projects</h2>
+            <div class="row">
+                <div class="col-sm-12 col-lg-3 col-md-4">
+                    <div class="card bg-dark">
+                        <div class="card-body">
+                            <h5 class="card-title">flower design</h5>
+                            <img src="./image/Passiflora.png" class="card-img-top w-75" alt="...">
+                            <p class="card-text">simple design for flower website<br><i class="bi bi-arrow-down-circle"></i> this is the GitHub code.</p>
+                            <a href="https://github.com/danyar-kawa/flower-shop" class="btn btn-secondary">code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-3 col-md-4 card bg-dark">
+                    <div class="card-body">
+                        <h5 class="card-title">portfolio design</h5>
+                        <img src="./image/Passiflora.png" class="card-img-top w-75" alt="...">
+                        <p class="card-text">simple design for portfolio website<br><i class="bi bi-arrow-down-circle"></i> this is the GitHub code.</p>
+                        <a href="https://github.com/danyar-kawa/portfolio" class="btn btn-secondary">code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row d-flex align-items-center mx-5 my-5 text-secondary text-light" id="Contact" style="height: 99vh;">
+        <div class="container">
+            <h2 class="text-center mb-4 border-bottom border-light">Contact</h2>
+            <div class="row">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputFullName" class="form-label">Full Name</label>
+                        <input type="email" class="form-control" id="exampleInputFullName" placeholder="Full Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="write your massage here"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-secondary"><i class="bi bi-send"></i>Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="row bg-secondary text-light text-center">
+        <p class="fs-4 text-dark"><b>Create By : Danyar</b></p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
